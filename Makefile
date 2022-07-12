@@ -6,7 +6,7 @@
 #    By: jfrancis <jfrancis@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/15 21:00:27 by jfrancis          #+#    #+#              #
-#    Updated: 2022/06/15 21:05:16 by jfrancis         ###   ########.fr        #
+#    Updated: 2022/07/11 21:09:54 by jfrancis         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,9 +19,10 @@ UTILS_DIR = utils
 OBJ_DIR = build
 INCLUDES_DIR = includes
 
-BASE = main.c
+BASE = philo.c
 
-UTILS = utils.c
+UTILS = utils.c \
+		error.c
 
 SRC = $(BASE) \
 	$(UTILS)

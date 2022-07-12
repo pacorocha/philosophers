@@ -1,0 +1,9 @@
+{
+	"makefile.extensionOutputFolder": "./.vscode",
+	"files.associations": {
+		"time.h": "c",
+		"unistd.h": "c",
+		"limits.h": "c",
+		"philo.h": "c"
+	}
+}
